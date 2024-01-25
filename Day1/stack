@@ -1,0 +1,20 @@
+import java.util.Stack;
+import java.util.Vector;
+
+public class stack {
+    public static void main(String[] args){
+        Stack<String> l= new Stack<String>();
+        l.push("abc");
+        l.push("cde");
+        l.push("fgh");
+        System.out.println(l);
+
+        l.pop();
+        System.out.println("After pop:"+l);
+        l.empty();
+        System.out.println("After Empty:"+l);
+
+
+    }
+}
+
