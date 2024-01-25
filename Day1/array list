@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class arr_list {
+    public static void main(String[] args){
+        ArrayList <String> l= new ArrayList<String>();
+        l.add("abc");
+        l.add("cde");
+        l.add("fgh");
+        System.out.println(l);
+        l.remove(2);
+        System.out.println("After removing:"+l);
+        l.clear();
+        System.out.println("After Clearing List:"+l);
+
+
+    }
+}
