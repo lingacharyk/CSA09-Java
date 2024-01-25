@@ -1,0 +1,15 @@
+
+import java.util.Vector;
+
+public class vect {
+    public static void main(String[] args){
+        Vector<String> l= new Vector<String>();
+        l.add("abc");
+        l.add("cde");
+        l.add("fgh");
+        System.out.println(l);
+        l.remove(1);
+        System.out.println("After removing:"+l);
+
+    }
+}
