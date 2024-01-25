@@ -1,0 +1,18 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class sort_set {
+    public static void main(String[] args) {
+        Set<String> a = new HashSet<String>();
+        a.add("abc");
+        a.add("cde");
+        a.add("fgh");
+
+        System.out.println("Set before " + a);
+
+
+        a.remove("abc");
+
+        System.out.println("Set after: " + a);
+    }
+}
