@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class PerfectNum {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        System.out.print("Enter a Number to Find: ");
+        int sum=0;
+        int num = a.nextInt();
+        for(int i=1;i<num;i++){
+            if(num%i==0){
+                sum=sum+i;
+            }
+        }
+        if(sum==num){
+            System.out.println("perfect number");
+        }
+        else{
+            System.out.println(" not a perfect number");
+
+        }
+
+    }
+}
