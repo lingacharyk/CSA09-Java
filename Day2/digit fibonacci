@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Digit_Fact {
+    public static void main(String[] args){
+        Scanner a=new Scanner(System.in);
+        System.out.print("enter:");
+        int num=a.nextInt();
+        int sum=0;
+        while(num>0){
+            int c=num%10;
+            for(int i=0;i<c;i++){
+                sum=sum+i;
+            }
+            num=num/10;
+        }
+        if(sum==num){
+            System.out.print("fiboo");
+        }
+        else{
+            System.out.print("not fiboo");
+        }
+    }
+}
