@@ -1,0 +1,7 @@
+public class HexToDec {
+    public static void main(String[] args){
+        String hexa="f";
+        int decimal=Integer.parseInt(hexa,16);
+        System.out.println(decimal);
+    }
+}
