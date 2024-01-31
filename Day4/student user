@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Student_User {
+    public static void main(String[] args){
+        Scanner a=new Scanner(System.in);
+        System.out.print("enter total number of users:");
+        int t1=a.nextInt();
+        System.out.print("enter total number of Staff users:");
+        int st=a.nextInt();
+        int staff=st/3;
+        int stu_user=t1-(st+staff);
+        if(stu_user>0){
+            System.out.println(stu_user);
+        }
+        else{
+            System.out.println("No student Users");
+        }
+
+    }
+}
