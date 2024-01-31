@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class SumSquare {
+    public static void main(String[] args){
+        Scanner a=new Scanner(System.in);
+        System.out.print("enter number of elements:");
+        int num=a.nextInt();
+        int EvenSum=0,OddSum=0;
+        for(int i=1;i<=num;i++){
+            System.out.print("enter the elements:");
+            int num1=a.nextInt();
+            if(num1%2==0){
+                EvenSum=EvenSum+(num1*num1);
+            }
+            else{
+                OddSum=OddSum+(num1*num1);
+            }
+        }
+        System.out.println("["+OddSum+","+EvenSum+"]");
+    }
+}
