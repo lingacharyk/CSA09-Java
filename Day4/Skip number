@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class SkipNUm {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        System.out.print("Enter a year: ");
+        int num1=a.nextInt();
+        System.out.print("Enter a year: ");
+        int num2=a.nextInt();
+
+        for(int i=num1;i<=num2;i=i+7){
+            System.out.println(i);
+
+        }
+
+    }
+}
